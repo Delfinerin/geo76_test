@@ -9,7 +9,11 @@
    crossorigin=""></script>
 </head>
 <body>
-<h1>Überschrift</h1>
-<p>Das ist mein Text mit dem Link der Startseite Uni Tübingen <a href="https://uni-tuebingen.de/">hyperlink</a>.</p>
+ <h1>Überschrift</h1>
+ <p>Das ist mein Text mit dem Link der Startseite Uni Tübingen <a href="https://uni-tuebingen.de/">hyperlink</a>.</p>
+ <div id="mapid" style="width: 600px; height: 400px; position: relative;"></div>
+ <script>
+  var mymap = L.map('mapid').setView([0, 0]).setZoom(1);
+ </script>
 </body>
 </html>
