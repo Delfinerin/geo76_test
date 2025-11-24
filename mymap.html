@@ -13,7 +13,7 @@
  <p>Das ist mein Text mit dem Link der Startseite der Universität Tübingen <a href="https://uni-tuebingen.de/">hyperlink</a>.</p>
  <div id="mapid" style="width: 600px; height: 400px; position: relative;"></div>
  <script>
-  var mymap = L.map('mapid').setView([48.523549, 9.057546]).setZoom(18);
+  var mymap = L.map('mapid').setView([48.523549, 9.057546]).setZoom(15);
   L.tileLayer('https://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/{y}.png').addTo(mymap);
   var markBota = L.marker([48.523549, 9.057546]).addTo(mymap);
   markBota.bindPopup("<p>This is the Botanical Garden</p>");
